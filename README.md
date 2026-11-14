@@ -29,7 +29,7 @@
 
 ## 📦 Install
 
-1. Download **[`dist/regen_settings.vescpkg`](dist/regen_settings.vescpkg)**.
+1. Download **[`regen_settings.vescpkg`](regen_settings.vescpkg)** (top of this repo).
 2. In VESC Tool, open **VESC Packages → Load Custom**, choose the file and click **Install**.
 3. Reconnect. A **Regen Settings** tab appears in AppUI.
 
@@ -71,7 +71,7 @@ Press **Write** to apply. New values take effect right away and are saved to fla
 ## 🛠️ Build from source
 
 ```bash
-make          # builds dist/regen_settings.vescpkg
+make          # builds regen_settings.vescpkg
 make verify   # unpacks it and checks every field
 ```
 
